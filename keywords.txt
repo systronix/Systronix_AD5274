@@ -1,0 +1,27 @@
+// Class, should be orange
+Systronix_LM3406	KEYWORD1
+
+// Functions, should be brown
+begin	KEYWORD2
+toggleComplement	KEYWORD2
+toggleBetweenTwo	KEYWORD2
+fadeUp	KEYWORD2
+onConstant	KEYWORD2
+
+// Variables
+BaseAddr	KEYWORD0
+
+// Manifest Constants
+TMP102_CONF_REG_PTR	LITERAL1
+
+
+// Test of all highlighting values - KEYWORD7 causes IDE problems! Don't use it.
+AKW0	KEYWORD0	// bold gray
+AKW1	KEYWORD1	// orange
+AKW2	KEYWORD2	// brown?
+AKW3	KEYWORD3	// bold orange
+AKW4	KEYWORD4	// no effect
+AKW5	KEYWORD5	// blue underline as hyperlink
+AKW6	KEYWORD6	// bold gray
+ALIT1	LITERAL1	// blue?
+ALIT2	LITERAL2	// not used?
