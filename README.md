@@ -20,6 +20,7 @@ This library supports both 8- adn 10- bit versions.
 ## How and Why We Use It
  - set point for a programmable current sink used to precisely drive a laser or LED, it is an input to the opamp which drives a FET
  - we could have used a DAC but this device has a programmable setpoint which does not require configuration once set.
+ - because it is a resistor, you can place it in a circuit with resistors 'above' and 'below' it, arranged such that you can put its effective range within a desired window of values, not just 0 to full scale. For us, in this application, this was useful and easier than using a DAC.
 
 ### Comments
  - Tested with Arduino Uno and both AD5274 and AD5272, on a custom Arduino shield
